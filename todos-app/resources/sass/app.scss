@@ -1,0 +1,54 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// my SASS
+body {
+  font-family: Nunito, Roboto, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.jumbotron {
+  background: rgb(93,28,20);
+  background: linear-gradient(0deg, rgba(93,28,20,1)
+  0%, rgba(253,187,45,1) 100%);
+  color: white;
+  text-shadow: 3px 3px 2px rgba(50, 50, 50, 1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.btn-primary, .btn-info, .btn a {
+  background: rgba(93,28,20,1);
+  border-color: rgba(253, 187, 45, 1);
+  color: white;
+}
+
+.btn-primary:hover, .btn-info:hover,  {
+  background: rgba(253, 187, 45, 1);
+  border-color: rgba(93,28,20,1);
+  color: black;
+}
+
+.todo {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.todo-descr {
+  background: #dddddd;
+  padding: 1rem;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.7), 0 4px 16px 0 rgba(0, 0, 0, 0.6);
+}
